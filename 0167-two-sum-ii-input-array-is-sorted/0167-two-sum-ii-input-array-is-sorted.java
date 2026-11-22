@@ -4,7 +4,7 @@ class Solution {
         int end = numbers.length-1;
         int sum ;
         int answer[]=new int[2];
-        for (int i=0 ; i < numbers.length ; i++ ){
+        while(start<end){
            sum =  numbers[start]+numbers[end];
            if(sum==target){
             answer[0]=start+1;
