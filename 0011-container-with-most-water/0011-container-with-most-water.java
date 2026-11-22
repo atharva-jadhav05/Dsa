@@ -5,7 +5,7 @@ class Solution {
         int start = 0;
         int end = height.length - 1;
 
-        for (int i = 0; i < height.length; i++) {
+        while(start<end) {
 
             int area = 0;
             width = end - start;
